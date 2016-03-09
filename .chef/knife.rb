@@ -1,4 +1,7 @@
 current_dir = File.dirname(__FILE__)
+
+knife[:editor] = '"C:\Program Files\Sublime Text 3\sublime_text.exe" --wait'
+
 chelog_level             :debug
 log_location             STDOUT
 node_name                "eberson"
